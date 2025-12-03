@@ -1,0 +1,5 @@
+Resources:
+  MyInstance:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "ey_samuel_1423"

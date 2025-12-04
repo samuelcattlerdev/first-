@@ -4,7 +4,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: us-east-1a
-      ImageId: ami-0fff1b9a61dec8a5f  # Amazon Linux 2023 us-east-1
+      ImageId: ami-0c80e2b6ccb9ad6d1
       InstanceType: t3.micro
       UserData:
         Fn::Base64: !Sub |
